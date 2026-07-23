@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+/* Self-hosted Spectral (files in /public/fonts) instead of a CDN import,
+   for reliability and offline/production performance. */
+@font-face {
+  font-family: 'Spectral';
+  src: url('/fonts/Spectral-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Spectral';
+  src: url('/fonts/Spectral-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Spectral';
+  src: url('/fonts/Spectral-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Spectral';
+  src: url('/fonts/Spectral-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Spectral';
+  src: url('/fonts/Spectral-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Spectral';
+  src: url('/fonts/Spectral-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Spectral';
+  src: url('/fonts/Spectral-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Spectral';
+  src: url('/fonts/Spectral-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@theme {
+  /* Colors sampled from the Figma screenshots + explicit hex given by client */
+  --color-alef-navy: #050816;      /* nav / sidebar background (solid) */
+  --color-alef-maroon: #1e0714;    /* secondary dark accent (close button hover etc.) */
+  --color-alef-pink: #f6d8d0;      /* light content stripe (dusty pink) */
+  --color-alef-cream: #f5f1e8;     /* light content stripe (cream) */
+  --color-alef-modal: #f2ece2;     /* full-screen modal background */
+  --color-alef-ink: #1c1613;       /* body/heading text color (client-specified) */
+  --color-alef-gold: #b7a089;      /* accent / bullet / list color */
+  --color-alef-gold-dark: #8a6f4d; /* hover state for gold accents */
+
+  --font-display: 'Spectral', Georgia, serif;
+  --font-sans: 'Spectral', Georgia, serif;
+  --font-serif: 'Spectral', Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-alef-navy);
+  overscroll-behavior: none;
+}
+
+::selection {
+  background: var(--color-alef-gold);
+  color: var(--color-alef-navy);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-alef-gold);
+  outline-offset: 3px;
+}
