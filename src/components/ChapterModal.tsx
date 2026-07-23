@@ -132,31 +132,33 @@ export default function ChapterModal({
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 8 }}
               transition={{ duration: 0.3 }}
-              className="shrink-0 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-2 px-4 sm:px-6 md:px-10 lg:px-16 py-4 border-t border-alef-gold/30 bg-alef-modal"
+              className="shrink-0 border-t border-alef-gold/30 bg-alef-modal"
             >
-              <button
-                onClick={() => hasPrev && onChangeIndex(activeIndex - 1)}
-                disabled={!hasPrev}
-                className="flex items-center gap-1 font-medium italic text-xs sm:text-sm md:text-base text-alef-ink disabled:opacity-30 disabled:cursor-not-allowed hover:text-alef-gold-dark transition-colors whitespace-nowrap"
-              >
-                <ChevronLeft size={16} className="sm:size-[18px]" />
-                <span className="hidden sm:inline">Previous topic</span>
-                <span className="sm:hidden">Prev</span>
-              </button>
+              <div className="flex flex-row items-center justify-between px-4 sm:px-6 md:px-10 lg:px-16 py-4 gap-2">
+                <button
+                  onClick={() => hasPrev && onChangeIndex(activeIndex - 1)}
+                  disabled={!hasPrev}
+                  className="flex items-center gap-1 font-medium italic text-xs sm:text-sm md:text-base text-alef-ink disabled:opacity-30 disabled:cursor-not-allowed hover:text-alef-gold-dark transition-colors whitespace-nowrap flex-1"
+                >
+                  <ChevronLeft size={16} className="sm:size-[18px] flex-shrink-0" />
+                  <span className="hidden sm:inline">Previous topic</span>
+                  <span className="sm:hidden">Prev</span>
+                </button>
 
-              <span className="font-medium text-xs text-alef-gold-dark">
-                {activeIndex + 1} / {sections.length}
-              </span>
+                <span className="font-medium text-xs sm:text-sm text-alef-gold-dark flex-shrink-0">
+                  {activeIndex + 1} / {sections.length}
+                </span>
 
-              <button
-                onClick={() => hasNext && onChangeIndex(activeIndex + 1)}
-                disabled={!hasNext}
-                className="flex items-center gap-1 font-medium italic text-xs sm:text-sm md:text-base text-alef-ink disabled:opacity-30 disabled:cursor-not-allowed hover:text-alef-gold-dark transition-colors whitespace-nowrap"
-              >
-                <span className="hidden sm:inline">Next topic</span>
-                <span className="sm:hidden">Next</span>
-                <ChevronRight size={16} className="sm:size-[18px]" />
-              </button>
+                <button
+                  onClick={() => hasNext && onChangeIndex(activeIndex + 1)}
+                  disabled={!hasNext}
+                  className="flex items-center justify-end gap-1 font-medium italic text-xs sm:text-sm md:text-base text-alef-ink disabled:opacity-30 disabled:cursor-not-allowed hover:text-alef-gold-dark transition-colors whitespace-nowrap flex-1"
+                >
+                  <span className="hidden sm:inline">Next topic</span>
+                  <span className="sm:hidden">Next</span>
+                  <ChevronRight size={16} className="sm:size-[18px] flex-shrink-0" />
+                </button>
+              </div>
             </motion.div>
           )}
         </AnimatePresence>
