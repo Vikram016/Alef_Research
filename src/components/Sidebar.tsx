@@ -31,7 +31,8 @@ export default function Sidebar({ onNavClick, onLogoClick, activeKey }: SidebarP
           <img
             src={alefLogo}
             alt="Alef Research logo"
-            className="w-[160px] lg:w-[170px] h-auto"
+            className="w-[160px] lg:w-[170px] h-auto image-rendering-crisp"
+            style={{ imageRendering: 'crisp-edges' }}
           />
         </button>
         <nav aria-label="Primary" className="flex flex-col gap-4">
@@ -53,7 +54,7 @@ export default function Sidebar({ onNavClick, onLogoClick, activeKey }: SidebarP
       <header className="md:hidden sticky top-0 z-40 bg-alef-navy">
         <div className="flex items-center justify-between px-4 py-3">
           <button type="button" onClick={handleLogoClick} aria-label="Alef Research home" className="block">
-            <img src={alefLogo} alt="Alef Research logo" className="w-[100px] h-auto" />
+            <img src={alefLogo} alt="Alef Research logo" className="w-[100px] h-auto" style={{ imageRendering: 'crisp-edges' }} />
           </button>
           <button
             onClick={() => setMenuOpen((v) => !v)}
@@ -72,8 +73,8 @@ export default function Sidebar({ onNavClick, onLogoClick, activeKey }: SidebarP
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
-              transition={{ duration: 0.25, ease: "easeOut" }}
-              className="overflow-hidden flex flex-col gap-4 px-4 pb-5"
+              transition={{ duration: 0.3, ease: "easeInOut" }}
+              className="overflow-visible flex flex-col gap-4 px-4 pb-5 pt-2"
             >
               {NAV_ITEMS.map((item) => (
                 <button
@@ -81,7 +82,7 @@ export default function Sidebar({ onNavClick, onLogoClick, activeKey }: SidebarP
                   onClick={() => handleClick(item.key)}
                   aria-haspopup="dialog"
                   aria-expanded={activeKey === item.key}
-                  className="text-left font-medium italic text-white text-base hover:text-alef-gold transition-colors duration-200"
+                  className="text-left font-medium italic text-white text-base hover:text-alef-gold transition-colors duration-200 py-2"
                 >
                   {item.label}
                 </button>
