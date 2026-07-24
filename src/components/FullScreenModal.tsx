@@ -41,7 +41,7 @@ export default function FullScreenModal({
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.98 }}
           transition={{ duration: 0.25, ease: "easeOut" }}
-          className="fixed inset-0 z-50 w-screen h-screen bg-alef-modal text-alef-ink flex flex-col overflow-hidden"
+          className="full-viewport-h fixed inset-0 z-50 w-screen bg-alef-modal text-alef-ink flex flex-col overflow-hidden"
         >
           <button
             onClick={onClose}

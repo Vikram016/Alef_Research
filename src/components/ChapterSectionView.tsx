@@ -53,6 +53,19 @@ export default function ChapterSectionView({
                 />
               );
             }
+            if (block.type === "link") {
+              return (
+                <a
+                  key={i}
+                  href={block.href}
+                  target={block.href.startsWith("http") ? "_blank" : undefined}
+                  rel={block.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                  className="font-semibold text-alef-gold-dark underline underline-offset-4 text-[0.95rem] md:text-base text-center block hover:text-alef-ink transition-colors"
+                >
+                  {block.label}
+                </a>
+              );
+            }
             return null;
           })}
         </div>

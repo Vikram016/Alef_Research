@@ -101,3 +101,16 @@ button:focus-visible {
   outline: 2px solid var(--color-alef-gold);
   outline-offset: 3px;
 }
+
+/* Mobile browsers (esp. iOS Safari / Android Chrome) resize their address
+   bar in and out, and 100vh is measured against the *largest* possible
+   viewport, not what's actually visible -- so fixed-position content sized
+   with 100vh can get clipped below the fold when the browser chrome is
+   showing. 100dvh tracks the real, current visible viewport. We keep the
+   vh value first as a fallback for older browsers that don't parse dvh
+   (if they don't understand the unit, the whole declaration is ignored
+   and the previous one stands). */
+.full-viewport-h {
+  height: 100vh;
+  height: 100dvh;
+}

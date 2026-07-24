@@ -21,9 +21,15 @@ export default function App() {
   const [modal, setModal] = useState<ModalState | null>(null);
 
   function handleNavClick(key: ChapterKey) {
-    setModal(null);
+    const sections = CHAPTER_SECTIONS[key];
     setActiveChapter(key);
-    setView("grid");
+    if (sections.length === 1) {
+      setView("home");
+      setModal({ chapterKey: key, index: 0 });
+    } else {
+      setModal(null);
+      setView("grid");
+    }
   }
 
   function handleGridSelect(sectionId: string) {

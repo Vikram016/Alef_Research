@@ -4,27 +4,35 @@ import {
   socialsystemContent,
   type ChapterSection,
 } from "./chapterContent";
+import { NEW_PAGES } from "./newPagesContent";
 import type { ChapterKey } from "../types";
 
-// The company chapter's founder bios/photos are rendered via <FoundersGrid />
-// rather than plain text blocks. We reinsert a placeholder section (empty
-// blocks) at its original position ("02. Our founders", right after the
-// name & logo section) so it still appears as its own card/topic in the
-// grid + modal flow, matching the old site's original section order.
-const companySectionsWithFounders: ChapterSection[] = (() => {
-  const arr = [...companyContent];
-  const idx = arr.findIndex((s) => s.id === "namelogo");
-  const foundersSection: ChapterSection = {
-    id: "founders",
-    heading: "02. Our founders",
-    blocks: [],
-  };
-  arr.splice(idx + 1, 0, foundersSection);
-  return arr;
-})();
+// "Our founders", "Be our co-worker if...", "Our simple business plan",
+// "News" and "Contact us" are now their own top-level nav pages (with
+// freshly-written copy from the final-cut text). The old "Our company
+// info" chapter originally covered this same ground with its own
+// (older) text, so we drop those overlapping sections here to avoid
+// showing duplicate/conflicting content -- keeping only what's still
+// unique to that chapter.
+const DUPLICATED_IN_NEW_PAGES = new Set([
+  "founders",
+  "joinus",
+  "bmodel",
+  "news",
+  "contact",
+]);
+
+const companySectionsDeduped: ChapterSection[] = companyContent.filter(
+  (s) => !DUPLICATED_IN_NEW_PAGES.has(s.id)
+);
 
 export const CHAPTER_SECTIONS: Record<ChapterKey, ChapterSection[]> = {
   technosystems: technosystemsContent,
   socialsystem: socialsystemContent,
-  company: companySectionsWithFounders,
+  company: companySectionsDeduped,
+  founders: [NEW_PAGES.founders],
+  coworker: [NEW_PAGES.coworker],
+  bizplan: [NEW_PAGES.bizplan],
+  news: [NEW_PAGES.news],
+  contact: [NEW_PAGES.contact],
 };

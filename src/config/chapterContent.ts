@@ -5,7 +5,8 @@ export type ContentBlock =
   | { type: "p"; text: string }
   | { type: "point"; marker: string; text: string }
   | { type: "img"; src: string; alt: string }
-  | { type: "name"; text: string };
+  | { type: "name"; text: string }
+  | { type: "link"; href: string; label: string };
 
 export interface ChapterSection {
   id: string;

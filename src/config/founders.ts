@@ -1,4 +1,4 @@
-// AUTO-GENERATED from the old Alef Research website (js/main.js).
+// Founder data, per "Alef Research - Website text for final cut" (2026-07-23).
 import sameerPhoto from "../assets/founders/sameer.jpeg";
 import gajendranPhoto from "../assets/founders/gajendran.jpeg";
 import siddharthPhoto from "../assets/founders/siddharth.jpeg";
@@ -41,16 +41,16 @@ export const founders: Founder[] = [
   },
   {
     name: `Syed`,
-    role: `Advisor`,
+    role: `Projects Group Coordinator`,
     photo: syedPhoto,
     bio: [
-      `Syed is a practical person but also philosophical. He has been a patient supporter of the organization from the time it was thought up in early 2023 but his discussions with Sameer about kosmik travel go back to 2007, with the initial discussion done on Syed's terrace along with few other friends.`,
-      `Syed contributes presently to our electricity generator project, our kosmos ship projects, our robot cats projects and general techno-social ideations.`
+      `Syed is a practical person but also philosophical. He was the first person Sameer approached when Sameer thought up the idea of a kosmos company ( space company ) in early 2023. But Syed's discussions with Sameer about kosmik travel go back to 2007, with the initial discussion done on Syed's terrace along with few other people.`,
+      `Syed presently works on our electricity generator project, our kosmos ship projects, our robot cats projects and general techno-social ideations.`
     ]
   },
   {
     name: `Mahmoud Hosny`,
-    role: `Regional Coordinator, Africa`,
+    role: `Liasion Coordinator, Africa`,
     photo: mahmoudPhoto,
     bio: [
       `Mahmoud lives in Cairo and will manage liaison to the administrations and the masses in the vast region that is Africa. He is a decent, straight-talking person and patient including the time it took for the organization to come to this level.`
