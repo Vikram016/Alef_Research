@@ -47,7 +47,7 @@ export default function HomeHero() {
           feudalism, tax ( including money ), profit, class system and tribalism.
         </p>
         <p>
-          This is the only way towards a unified human utopia of milk, honey
+          We present the way towards a unified human utopia of milk, honey
           and harmony spread across the timeless and infinite kosmos.
         </p>
       </motion.div>
