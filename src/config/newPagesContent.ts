@@ -171,7 +171,7 @@ const thanks: ChapterSection = {
     {
       type: "point",
       marker: "(01).",
-      text: "Vikram for the logo, for the website design, for provoking the thought in us to have this Thanks topic.",
+      text: "Vikram for our company logo, for this website design and for provoking the thought in us to have this Thanks topic.",
     },
     {
       type: "point",
@@ -186,12 +186,17 @@ const thanks: ChapterSection = {
     {
       type: "point",
       marker: "\u21B3",
-      text: "Thanks to Vikram also for reminding about ancient pottery-based cooling of water, an idea we will use in our generator design.",
+      text: "Thanks to Vikram also for reminding at about ancient pottery-based cooling of water, an idea we will use in our generator design.",
+    },
+    {
+      type: "point",
+      marker: "\u21B3",
+      text: "Thanks to Vikram also for reminding about the scarcity of sand when the sand battery has to be constructed in the billions, a thought which then led to us searching on the internet about other natural means of storing heat which thus led us to the water battery. Again an idea we will use in our generator design.",
     },
     {
       type: "point",
       marker: "(02).",
-      text: "Apoorva JR for presenting to us an Instagram page in 2023 which contained reports on eco-friendly ways of generating electricity and which led to our discovery of the 'sand battery'.",
+      text: "Apoorva JR for presenting to us an Instagram page in 2023 which contained reports on eco-friendly ways of generating electricity and which led to our discovery of the 'sand battery' which is a container of sand which stores heat ( or maybe coolness too ) and which in turn led to us later thinking about the water battery which is a container of water which stores heat.",
     },
     {
       type: "point",

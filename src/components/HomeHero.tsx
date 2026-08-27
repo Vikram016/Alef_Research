@@ -32,7 +32,7 @@ export default function HomeHero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.25 }}
-        className="font-semibold text-alef-ink text-sm md:text-base leading-relaxed text-left space-y-4"
+        className="font-semibold italic text-alef-ink text-sm md:text-base leading-relaxed text-left space-y-4"
       >
         <p>
           We are designing all necessary techno-social systems required for humans to 
@@ -47,8 +47,10 @@ export default function HomeHero() {
           tax ( including money ), profit, class system, competition and tribalism.
         </p>
         <p>
-          We present the way towards a unified human utopia of milk, honey
-          and harmony spread across the timeless and infinite kosmos.
+          The Alef in our company's name stands for "Advance by Liberty, Equality, Fraternity". Alef is also similar to Alif
+          which means "The first" in West Asian languages. Through both these Alef meanings we present the first way...
+          the foundations... towards building a unified human utopia of milk, honey and harmony spread across 
+          the timeless and infinite kosmos.
         </p>
       </motion.div>
     </section>
