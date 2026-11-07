@@ -18,7 +18,7 @@ export const founders: Founder[] = [
     role: `General Coordinator`,
     photo: sameerPhoto,
     bio: [
-      `Sameer started with computer science but he now is a general researcher with interests ranging from generation of energy to organization of society, like those general researchers of old like Hasan Ibn al-Haytham ( known as Alhazen to Europe ), Leonardo da Vinci and Jagadish Chandra Bose.`,
+      `Sameer started with computer science but he now is a general researcher with interests ranging from generation of energy to organization of society, like those general researchers of old like Hasan Ibn al-Haytham ( known as Alhazen to Europe ), Leonardo da Vinci and Jagadish Chandra Bose. His techno-social thinking is based on socialism.`,
       `Sameer's LinkedIn profile : https://in.linkedin.com/in/sameer-alef-research`
     ]
   },

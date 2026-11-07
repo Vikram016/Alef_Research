@@ -10,8 +10,7 @@ export default function HomeHero() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="font-bold italic text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-snug text-alef-ink text-center"
       >
-        Alef Research is building the foundations for humanity's utopian
-        future beyond Earth
+        Alef Research is building the foundations for humanity's utopian future beyond Earth
       </motion.h1>
 
       <motion.div
@@ -40,10 +39,11 @@ export default function HomeHero() {
           within self-sufficient hollowed-asteroid cities and travel wherever these asteroid cities can be made to go.
         </p>
         <p>
-          Our techno-social systems combine a clean slate approach, rethink energy where most machines don't need electricty,
-          have simplified engineering, decentralized production, biological innovation, bio-mimicry, circular production,
-          timeless design, gentleness, beauty, are buildable anywhere in the kosmos and have natural values including by
-          abolishing feudalism, tax ( including money ), profit, class system, competition and tribalism.
+          Our techno-social systems combine a clean slate approach, re-think energy where electricty is not required, 
+          where all techno systems have simplified engineering, have decentralized production, use biological innovation and
+          bio-mimicry, circular production, timeless design, gentleness, beauty, are buildable anywhere in the kosmos and 
+          have natural values including by abolishing feudalism, tax ( including money ), profit, class system, 
+          competition and tribalism.
         </p>
       </motion.div>
     </section>
