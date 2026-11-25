@@ -18,8 +18,17 @@ export const founders: Founder[] = [
     role: `General Coordinator`,
     photo: sameerPhoto,
     bio: [
-      `Sameer started with computer science but he now is a general researcher with interests ranging from generation of energy to organization of society, like those general researchers of old like Hasan Ibn al-Haytham ( known as Alhazen to Europe ), Leonardo da Vinci and Jagadish Chandra Bose. His techno-social thinking is based on socialism.`,
+      `Sameer started with computer science but he now is a general researcher with interests ranging from generation of energy to organization of society, like those general researchers of old like Hasan Ibn al-Haytham ( known as Alhazen to Europe ), Leonardo da Vinci and Jagadish Chandra Bose.`,
       `Sameer's LinkedIn profile : https://in.linkedin.com/in/sameer-alef-research`
+    ]
+  },
+  {
+    name: `Syed`,
+    role: `Projects Group Coordinator`,
+    photo: syedPhoto,
+    bio: [
+      `Syed is a practical person but also philosophical. He was the first person Sameer approached when Sameer thought up the idea of a kosmos company ( space company ) in early 2023. But Syed's discussions with Sameer about kosmik travel go back to 2007, with the initial discussion done on Syed's terrace along with few other people.`,
+      `Syed presently works on our Mecha mechanical power generator project, our kosmos ship projects, our robot cats projects and general techno-social ideations.`
     ]
   },
   {
@@ -38,15 +47,6 @@ export const founders: Founder[] = [
     bio: [
       `Dr. Siddharth has been a patient supporter of the organization since its establishment in early 2023. He joined our more little group when we didn't have this organization and our sole project was the Kosmos microprocessor+OS which remains documented on the OpenCores website at this page [ opencores.org/projects/taar ].`,
       `Presently, Dr. Siddharth has been an advisor in a system-level way.`
-    ]
-  },
-  {
-    name: `Syed`,
-    role: `Projects Group Coordinator`,
-    photo: syedPhoto,
-    bio: [
-      `Syed is a practical person but also philosophical. He was the first person Sameer approached when Sameer thought up the idea of a kosmos company ( space company ) in early 2023. But Syed's discussions with Sameer about kosmik travel go back to 2007, with the initial discussion done on Syed's terrace along with few other people.`,
-      `Syed presently works on our Mecha mechanical power generator project, our kosmos ship projects, our robot cats projects and general techno-social ideations.`
     ]
   },
   {

@@ -45,6 +45,9 @@ export default function HomeHero() {
           have natural values including by abolishing feudalism, tax ( including money ), profit, class system, 
           competition and tribalism.
         </p>
+        <p>
+          Our radical way is the way towards foundations of Utopia. Please read the rest of our website.
+        </p>
       </motion.div>
     </section>
   );

@@ -191,12 +191,17 @@ const thanks: ChapterSection = {
     {
       type: "point",
       marker: "\u21B3",
-      text: "Thanks to Vikram also for reminding about the scarcity of sand when the sand battery has to be constructed in the billions, a thought which then led to us searching on the internet about other natural means of storing heat which thus led us to the water battery. Again an idea we will use in our design of our Mecha mechanical power generator.",
+      text: "Thanks to Vikram also for reminding about the scarcity of sand when the sand battery has to be constructed in the billions, a thought which then led to us searching on the internet about other natural means of storing heat which thus led us to the water heat battery. Again an idea we will use in our-designed Mecha mechanical power generator.",
     },
     {
       type: "point",
       marker: "(02).",
-      text: "Apoorva JR for presenting to us an Instagram page in 2023 which contained reports on eco-friendly ways of generating electricity and which led to our discovery of the 'sand battery' which is a container of sand which stores heat ( or maybe coolness too ) and which in turn led to us later thinking about the water battery which is a container of water which stores heat.",
+      text: "Robert Stirling and his brother James who created and advanced the Stirling Engine which forms the basis of our compact, self-sustained generator of mechanical power Mecha.",
+    },
+    {
+      type: "point",
+      marker: "(03).",
+      text: "Apoorva JR for presenting to us an Instagram page in 2023 which contained reports on eco-friendly ways of generating electricity and which led to our discovery of the 'sand battery' which is a container of sand which stores heat ( or maybe coolness too ) and which in turn led to us later thinking about the water battery which is a container of water which stores heat. This heat battery we use in our Mecha compact, self-sustaining generator of mechanical power.",
     },
     {
       type: "point",
@@ -210,7 +215,7 @@ const thanks: ChapterSection = {
     },
     {
       type: "point",
-      marker: "(03).",
+      marker: "(04).",
       text: "The 2009 Hindi film 'Rocket Singh : Salesman of the Year' for being one of the inspirations for us thinking about democracy in organizations and the idea of Worker Cooperative.",
     },
     {
@@ -220,12 +225,12 @@ const thanks: ChapterSection = {
     },
     {
       type: "point",
-      marker: "(04).",
+      marker: "(05).",
       text: "YouTube and Wikipedia in general.",
     },
     {
       type: "point",
-      marker: "(05).",
+      marker: "(06).",
       text: "Farzad Zangeneh-Nejad and Romain Fleury at the Federal Institute of Technology ( EPFL ) in Lausanne, Switzerland, for the idea of using sound to do analog computing.",
     },
     {
@@ -233,11 +238,6 @@ const thanks: ChapterSection = {
       marker: "\u21B3",
       text: "This article is on this link [physics world](https://physicsworld.com/a/analogue-computer-could-use-sound-to-make-rapid-calculations/).",
     },    
-    {
-      type: "point",
-      marker: "(06).",
-      text: "RMIT University, Australia, for the idea that sound can be used to make electrolysis better and make use of cheaper electrode material. The article saying this is here [Power Engineering](https://www.power-eng.com/hydrogen/sound-waves-boost-green-hydrogen-production/#) so we also thank the website [power-eng.com](https://www.power-eng.com).",
-    },
     {
       type: "point",
       marker: "(07).",
