@@ -34,19 +34,21 @@ export default function HomeHero() {
         className="font-semibold italic text-alef-ink text-sm md:text-base leading-relaxed text-left space-y-4"
       >
         <p>
-          We are designing all necessary techno-social systems required for humans to 
-          travel harmoniously to the kosmos ( space ), live harmoniously in the kosmos 
-          within self-sufficient hollowed-asteroid cities and travel wherever these asteroid cities can be made to go.
+          We are designing all necessary techno-social systems required to take potentially any human on Earth, to the kosmos 
+          ( space ) in a harmonious and safe way, and for them to live harmoniously in the kosmos within our 
+          self-sufficient and self-propelled hollowed-asteroid cities called Zarra-C, and travel wherever these asteroid cities
+          can be made to go, whether towards the Sun or beyond Pluto.
         </p>
         <p>
           Our techno-social systems combine a clean slate approach, re-think energy where electricty is not required, 
-          where all techno systems have simplified engineering, have decentralized production, use biological innovation and
-          bio-mimicry, circular production, timeless design, gentleness, beauty, are buildable anywhere in the kosmos and 
-          have natural values including by abolishing feudalism, tax ( including money ), profit, class system, 
-          competition and tribalism.
+          where all techno systems have simplified engineering, have safety, use biological innovation and bio-mimicry,
+          circular production, timeless design, gentleness, beauty, are easily buildable in decentralized way in 
+          massive numbers anywhere on Earth and anywhere in the kosmos, and have natural values including by 
+          abolishing feudalism, tax ( including money ), profit, class system, competition and tribalism.
         </p>
         <p>
-          Our radical way is the way towards foundations of Utopia. Please read the rest of our website.
+          Our simplifying and radical way is the way towards foundations of Utopia for all of humanity. Please read the rest of 
+          our website.
         </p>
       </motion.div>
     </section>
