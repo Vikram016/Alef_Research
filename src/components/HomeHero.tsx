@@ -34,7 +34,7 @@ export default function HomeHero() {
         className="font-semibold italic text-alef-ink text-sm md:text-base leading-relaxed text-left space-y-4"
       >
         <p>
-          We are designing all necessary techno-social systems required to take potentially any human on Earth, to the kosmos 
+          We are designing all necessary techno-social systems required to take potentially any human to the kosmos 
           ( space ) in a harmonious and safe way, and for them to live harmoniously in the kosmos within our 
           self-sufficient and self-propelled hollowed-asteroid cities called Zarra-C, and travel wherever these asteroid cities
           can be made to go, whether towards the Sun or beyond Pluto.
@@ -42,13 +42,17 @@ export default function HomeHero() {
         <p>
           Our techno-social systems combine a clean slate approach, re-think energy where electricty is not required, 
           where all techno systems have simplified engineering, have safety, use biological innovation and bio-mimicry,
-          circular production, timeless design, gentleness, beauty, are easily buildable in decentralized way in 
-          massive numbers anywhere on Earth and anywhere in the kosmos, and have natural values including by 
-          abolishing feudalism, tax ( including money ), profit, class system, competition and tribalism.
+          circular production, timeless design, gentleness, beauty...
         </p>
         <p>
-          Our simplifying and radical way is the way towards foundations of Utopia for all of humanity. Please read the rest of 
-          our website.
+          ...and are easily buildable in decentralized way in massive numbers anywhere on Earth and anywhere in the kosmos...
+        </p>
+        <p>
+          ...and have natural values including by abolishing feudalism, tax ( including money ), profit, class system,
+          competition, tribalism and personal vehicles.
+        </p>
+        <p>
+          By these simplifying ways we move humanity towards Utopia spread across the timeless and infinite kosmos.
         </p>
       </motion.div>
     </section>
